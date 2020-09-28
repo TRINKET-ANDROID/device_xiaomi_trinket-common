@@ -1044,3 +1044,6 @@ service vendor.hwcomposer-2-3 /vendor/bin/hw/android.hardware.graphics.composer@
 on property:persist.sys.device_provisioned=1
     setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,7
     setprop dalvik.vm.dex2oat-threads 6
+
+service iop-hal-2-0 /system/bin/true
+    disabled
