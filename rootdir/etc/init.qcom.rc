@@ -1047,3 +1047,6 @@ on property:persist.sys.device_provisioned=1
 
 service iop-hal-2-0 /system/bin/true
     disabled
+
+service vendor.mlshal-1-0 /system/bin/true
+    disabled
