@@ -101,3 +101,6 @@ ro.surface_flinger.protected_contents=true
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# Set rendering pipeline mode to Vulkan
+debug.hwui.renderer=skiavk
