@@ -5,4 +5,11 @@ allow system_app vendor_default_prop:file { map };
 allow system_app wificond:binder { call };
 allow system_app default_android_service:service_manager { find };
 
+allow system_app adbd_prop:file { open };
+allow system_app adbd_prop:file { getattr };
+allow system_app adbd_prop:file { map };
+allow system_app adbtcp_prop:file { open };
+allow system_app adbtcp_prop:file { getattr };
+allow system_app adbtcp_prop:file { map };
+
 hal_client_domain(system_app, vendor_hal_fm)
